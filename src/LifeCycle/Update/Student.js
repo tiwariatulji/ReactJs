@@ -14,7 +14,7 @@ export default class Student extends Component {
         this.setState({Roll:1112});
     }
     render() {
-        console.log("Student renderd")
+        console.log("Student renderd-")
         return (
             <div>
               <Marks roll={this.state.Roll}/>  
