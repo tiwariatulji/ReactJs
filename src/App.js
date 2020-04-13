@@ -2,12 +2,24 @@
 import React, { Component } from 'react'
 import Form2 from "./Form/Form2"
 import ReactRefs from './Form/ReactRefs'
+import Lifting from './LiftingState/Lifting'
+import UserMain from './ContextApi/UserMain'
+import Normal from "./Hoc/Normal"
+import ErrorBound from "./ErrorBoundary/ErrorBound"
+import Router from "./Router/Router.js"
+import Spread from './ES6/Spread'
 export default class App extends Component {
   render() {
     return (
       <div>
-        <Form2/>
+        {/* <Form2/>
         <ReactRefs/>
+        <Lifting/>
+        <UserMain/>
+        <Normal/>
+        <ErrorBound/> */}
+        <Router/>
+        <Spread/>
       </div>
     )
   }
