@@ -8,6 +8,7 @@ import Normal from "./Hoc/Normal"
 import ErrorBound from "./ErrorBoundary/ErrorBound"
 import Router from "./Router/Router.js"
 import Spread from './ES6/Spread'
+import Main from "./Redux/Redux1/Main"
 export default class App extends Component {
   render() {
     return (
@@ -20,6 +21,8 @@ export default class App extends Component {
         <ErrorBound/> */}
         <Router/>
         <Spread/>
+        <Main/>
+        
       </div>
     )
   }
