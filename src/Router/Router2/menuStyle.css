@@ -1,0 +1,11 @@
+.menuStyle{
+    width: 100%;
+    height: 100px;
+    background:#6ab04c ;color:white
+}
+.menuStyle ul{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

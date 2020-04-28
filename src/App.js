@@ -1,5 +1,6 @@
 
 import React, { Component } from 'react'
+import "./App.css"
 import Form2 from "./Form/Form2"
 import ReactRefs from './Form/ReactRefs'
 import Lifting from './LiftingState/Lifting'
@@ -9,20 +10,24 @@ import ErrorBound from "./ErrorBoundary/ErrorBound"
 import Router from "./Router/Router.js"
 import Spread from './ES6/Spread'
 import Main from "./Redux/Redux1/Main"
+import Form1 from "./FormValidation/Form1"
+import RouterMain from "./Router/Router2/RouterMain"
 export default class App extends Component {
   render() {
     return (
-      <div>
+      <div className="App">
         {/* <Form2/>
         <ReactRefs/>
         <Lifting/>
         <UserMain/>
         <Normal/>
         <ErrorBound/> */}
-        <Router/>
-        <Spread/>
-        <Main/>
-        
+        {/* <Router/> */}
+        {/* <Spread/> */}
+        {/* <Main/> */}
+        <Form1/>
+        {/* <RouterMain/> */}
+      
       </div>
     )
   }
