@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         // Closer function
+      var i = "My name Atultiwari"
+
+    //   function Show(){
+    //       var j = "i am Local variable"
+    //       document.write(j)
+    //       document.write(i)
+    //   }
+
+    //   Show();
+
+      function Showvalue (){
+          var i = " I am global variable"
+          document.write(i)
+          function ShowTime (){
+
+            var j = "I am inner variable"
+            document.write(i);
+            document.write(j);
+          }
+          ShowTime();
+          document.write(i);
+          document.write(j);
+      }
+
+    Showvalue();
+
+
+
+    </script>
+</body>
+</html>

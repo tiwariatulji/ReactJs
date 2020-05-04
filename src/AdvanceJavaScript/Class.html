@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+                   // Es 6 Class
+  class Mobile{
+      constructor(){
+          // instance Member
+          this.a = 12,
+          this.show = function (){
+              return " instance Member"
+          };
+      }
+      // prototype Member
+      display(){
+          return "prototype member"
+      }
+
+  }
+   var nokia = new Mobile();
+    
+   document.write(nokia.a);
+   document.write(nokia.show());
+   document.write(nokia.display())
+
+   //       Cunstructor With parameter
+
+          class Mobiles{
+              constructor(modalno,color){
+                  this.modal = modalno;
+                  this.clr = color
+              };
+              show(){
+                  return (this.modal +  "price is Rs. 300" + this.clr) ;
+              }
+          }
+
+          var Nokia = new Mobiles("Nokia","White")
+          var lg = new Mobiles("note 4", "Black")
+          document.write(Nokia.show());
+          document.write(lg.show());
+           
+    </script>
+</body>
+</html>
